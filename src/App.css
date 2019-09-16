@@ -1,33 +1,18 @@
 .App {
   text-align: center;
+  --background_color:#222;
+  --title_family:'Roboto Condensed', sans-serif;
+  --title_color:#414042;
+  --title_size:16pt;
+  --body_font:'Roboto Condensed', sans-serif;;
+  --body_color:#414042;
+  --body_size:12pt;
+  --button_color:#414042;
+  --button_font:'Roboto Condensed', sans-serif;;
+  --button_size:6pt;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
