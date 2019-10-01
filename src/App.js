@@ -2,6 +2,8 @@ import React from 'react';
 import "./reset.css";
 import './App.css';
 
+// import { Router, Route, Switch } from "react-router-dom";
+
 import Nav from "./Components/Nav/Nav"
 import Landing from "./Components/Landing/Landing"
 import Footer from "./Components/Footer/Footer"

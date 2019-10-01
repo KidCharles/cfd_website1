@@ -56,18 +56,10 @@
   }
   
   .nav_wrapper ul li {
-    color: #00324e;
-    font-size: 18px;
     font-weight: bold;
     text-align: right;
   }
   
-  .nav_wrapper ul li span {
-    color: #006591;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: normal;
-  }
   
   @media (min-width: 769px) {
     .nav_wrapper p {

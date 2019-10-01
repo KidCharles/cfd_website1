@@ -13,7 +13,7 @@ export default function Footer(props) {
         <div className="footer_wrapper">
             <div className="footer_container">
                 <div>
-                    <ul>
+                    <ul className="footer_item">
                         <a
                             href="https://carefreedirect.com/#/About"
                             target="_blank"
@@ -51,15 +51,15 @@ export default function Footer(props) {
                 </div>
             </div>
 
-            <div className="footer_cta">
+            <div className="footer_cta footer_item">
                 <p>Speak to a Licensed Benefits Advisor!</p>
                 <img className="footer_phone" src={phone} alt="phone icon" />
                 <a
                     data-replaceable-phone-dialable=""
                     className="footer_number"
-                    href="tel:18558700077"
+                    href="tel:5555555555"
                 >
-                    <span className="">1-855-931-0267</span>
+                    <span className="">1-555-555-5555</span>
                 </a>
             </div>
             <div className="social_media_wrapper">
