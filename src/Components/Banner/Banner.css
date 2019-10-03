@@ -1,0 +1,49 @@
+.bannerWrapper {
+    font-family: var(--font_family_main);
+    height: 400px;
+    width: 100vw;
+    background-color: #3399cc;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.imgur.com/d0LlyIi.png");
+  }
+ 
+  .bannerTitle {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 48px;
+    padding: 24px 0px;
+    color: #ffff;
+    /* animation: large_body 1000ms ease-out 0s 1; */
+  }
+  
+  .bannerText {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #ffff;
+    /* animation: large_body 1000ms ease-out 0s 1; */
+  }
+  
+  
+  @media (min-width: 769px) {
+    .bannerTitle {
+      font-size: 40px;
+    }
+    .bannerText {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .bannerWrapper {
+      display: none;
+    }
+  }
+  
