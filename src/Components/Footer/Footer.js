@@ -57,9 +57,9 @@ export default function Footer(props) {
                 <a
                     data-replaceable-phone-dialable=""
                     className="footer_number"
-                    href="tel:5555555555"
+                    href="tel:1-855-931-1230"
                 >
-                    <span className="">1-555-555-5555</span>
+                    <span className="">1-855-931-1230</span>
                 </a>
             </div>
             <div className="social_media_wrapper">

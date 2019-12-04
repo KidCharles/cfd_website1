@@ -12,9 +12,17 @@ export default class Form extends Component {
                         <h2 className="subtitle">It doesn't have to be</h2>
                         <p className="body" >For a more CareFree experience, call to have a FREE & EASY health care benefit review with a Licensed Benefits Advisor</p>
 
-                        <div className="number_desktop">555-555-5555</div>
+                        <div className="number_desktop">1-855-931-1230</div>
 
-                        <button type='' className='number_mobile'>555-555-5555</button>
+                        <button type='' className='number_mobile'>
+                            <a
+                                data-replaceable-phone-dialable=""
+                                className="footer_number"
+                                href="tel:1-855-931-1230"
+                            >
+                                <span className="">1-855-931-1230</span>
+                            </a>
+                        </button>
                     </div>
                     <div className="cta">
                         <img className="shield" src="https://i.imgur.com/BJgdGv5.png" alt="shied icon" />

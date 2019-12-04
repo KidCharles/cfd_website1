@@ -26,10 +26,21 @@ export default function Nav(props) {
         {/* <h1 className="nav_title">LOGO</h1> */}
       </div>
       <div>
-        <p className="nav_item">Call our Medicare Coverage Help Center</p>
+        <p className="nav_item">Medicare Coverage Help Center</p>
         <ul>
-          <li className="nav_number">1-555-555-5555</li>
+          <li className="nav_number">1-855-931-1230</li>
+          <li className="nav_number_mobile">
+            <a
+              data-replaceable-phone-dialable=""
+              className="nav_number_mobile"
+              href="tel:1-855-931-1230"
+            >
+              <span className="">1-855-931-1230</span>
+            </a>
+
+          </li>
           <li>
+
             <span className="nav_subtitle">TTY:711 8am to 8pm, Monday-Friday</span>
           </li>
         </ul>

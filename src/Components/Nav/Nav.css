@@ -59,7 +59,20 @@
     font-weight: bold;
     text-align: right;
   }
-  
+
+  .nav_number{
+display: none;
+  }
+
+  .nav_number_mobile {
+    display: initial;
+    text-decoration: none;
+    font-weight: bold;
+    color: #00324e;
+  }
+  .nav_number_mobile:hover {
+    color: #df3063;
+  }
   
   @media (min-width: 769px) {
     .nav_wrapper p {
@@ -76,5 +89,12 @@
     .nav_wrapper ul {
       margin-right: 3rem;
     }
+    .nav_number{
+      display: inherit;
+        }
+    .nav_number_mobile{
+      display: none;
+        }
+        
   }
   
